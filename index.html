@@ -5,10 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,500;0,700;1,100;1,200;1,300;1,500&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <main>
+
         <section class="container">
             <section  class="hero">
                 <h1>Generate a <span class="otherColor  lineBreak">random password</span></h1>
@@ -18,7 +24,7 @@
                         <button id="button-el">Generate Passwords</button>
                     </div>
 
-                    <div>
+                    <div class="opChoices">
                         <label for="passwordLength" class="lineBreak">
                             <input type="text" id="passwordLength"  class="buttonStyling" name="passwordLength" placeholder="Enter Number"> Password Length
                         </label>
@@ -30,8 +36,6 @@
                         </label>
                     </div>
                 </section>
-
-                
                 
                 <!-- <label for="numbers">
                     <input type="checkbox" id="numbers" name="numbers" value ="yes" checked> Numbers
@@ -42,8 +46,8 @@
 
             </section>
             <section class="passwordContainer">
-                <p id="passwordOne-el" class="buttonStyling"></p>
-                <p id="passwordTwo-el" class="buttonStyling"></p>
+                    <p id="passwordOne-el" class="buttonStyling"></p>
+                    <p id="passwordTwo-el" class="buttonStyling"></p>
             </section>
         </section>
     </main>
