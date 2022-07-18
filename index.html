@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main>
+        <section class="container">
+            <section  class="hero">
+                <h1>Generate a <span class="otherColor  lineBreak">random password</span></h1>
+                <p>Never use an insecure password again.</p>
+                <section class="options">
+                    <div>
+                        <button id="button-el">Generate Passwords</button>
+                    </div>
+
+                    <div>
+                        <label for="passwordLength" class="lineBreak">
+                            <input type="text" id="passwordLength"  class="buttonStyling" name="passwordLength" placeholder="Enter Number"> Password Length
+                        </label>
+                        <label for="numbers" class="lineBreak">
+                            <input type="text" id="numbers" class="buttonStyling" name="numbers" placeholder="Yes/No" > Include Numbers
+                        </label>
+                        <label for="symbols" class="lineBreak">
+                            <input type="text" id="symbols" class="buttonStyling" name="symbols" placeholder="Yes/No" > Include Symbols
+                        </label>
+                    </div>
+                </section>
+
+                
+                
+                <!-- <label for="numbers">
+                    <input type="checkbox" id="numbers" name="numbers" value ="yes" checked> Numbers
+                </label>
+                <label for="symbols">
+                    <input type="checkbox" id="symbols" name="symbols" value ="yes" checked> Symbols
+                </label> -->
+
+            </section>
+            <section class="passwordContainer">
+                <p id="passwordOne-el" class="buttonStyling"></p>
+                <p id="passwordTwo-el" class="buttonStyling"></p>
+            </section>
+        </section>
+    </main>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
